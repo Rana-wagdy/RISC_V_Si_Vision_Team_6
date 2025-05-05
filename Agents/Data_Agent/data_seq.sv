@@ -3,7 +3,7 @@ class data_seq extends uvm_sequence #(data_seq_item);
     data_seq_item req,rsp;
     data_seq_item q [$:2];
     [7:0] data_mem [int];
-    cfg data_agent_cfg;
+    data_agent_cfg cfg;
     //[31:0] data_mem [32];
 
     
