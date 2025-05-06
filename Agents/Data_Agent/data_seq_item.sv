@@ -7,7 +7,7 @@ class data_seq_item extends uvm_sequence_item;
   bit[3:0] data_be_o;
   bit [31:0] data_addr_o ;
   int data_wdata_o ;
-  rand int data_rdata_i ;
+  rand int data_rdata_i ; // should be integer or logic 
   //---------------------------------------
   //Utility and Field macros
   //---------------------------------------
